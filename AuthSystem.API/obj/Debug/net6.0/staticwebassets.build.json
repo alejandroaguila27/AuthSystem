@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HQnaxYHyVJnDQUCbfNtALJvzoGpw5VOz8TnQpcGSGN8=",
+  "Source": "AuthSystem.API",
+  "BasePath": "_content/AuthSystem.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

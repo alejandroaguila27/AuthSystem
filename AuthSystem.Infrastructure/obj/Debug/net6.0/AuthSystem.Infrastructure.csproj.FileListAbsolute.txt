@@ -1,0 +1,17 @@
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\bin\Debug\net6.0\AuthSystem.Infrastructure.deps.json
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\bin\Debug\net6.0\AuthSystem.Infrastructure.dll
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\bin\Debug\net6.0\AuthSystem.Infrastructure.pdb
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\bin\Debug\net6.0\AuthSystem.Domain.dll
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\bin\Debug\net6.0\AuthSystem.Domain.pdb
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.AssemblyInfo.cs
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.csproj.CopyComplete
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.dll
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\refint\AuthSystem.Infrastructure.dll
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.pdb
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\ref\AuthSystem.Infrastructure.dll
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\bin\Debug\net6.0\AuthSystem.Infrastructure.runtimeconfig.json
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Infrastructure\obj\Debug\net6.0\AuthSystem.Infrastructure.genruntimeconfig.cache

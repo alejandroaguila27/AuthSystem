@@ -1,0 +1,12 @@
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\bin\Debug\net6.0\AuthSystem.Domain.deps.json
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\bin\Debug\net6.0\AuthSystem.Domain.dll
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\bin\Debug\net6.0\AuthSystem.Domain.pdb
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\AuthSystem.Domain.csproj.AssemblyReference.cache
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\AuthSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\AuthSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\AuthSystem.Domain.AssemblyInfo.cs
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\AuthSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\AuthSystem.Domain.dll
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\refint\AuthSystem.Domain.dll
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\AuthSystem.Domain.pdb
+C:\Users\aleja\source\repos\AuthSystem\AuthSystem.Domain\obj\Debug\net6.0\ref\AuthSystem.Domain.dll

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5TZBK+tErXYMZGY2dUnUpeIIQcBC1PeF5NywfYFE3QSD6ZJbiyKRJLxeoz0fCG3bwGVq2LP9fFaaJZF+I2+Xbw==",
+  "dgSpecHash": "TcG/x3xZi8zAKxv5PrIJGvd7RBnDBMz/Qfh9jz2bqFd75jMLSNIxH1qmNZp3jrCPDSvM/6OXF1ELYodaGpAnNw==",
   "success": true,
   "projectFilePath": "C:\\Users\\aleja\\Documents\\GitHub\\AuthSystem\\AuthSystem.Domain\\AuthSystem.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\aleja\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.0.3\\microsoft.identitymodel.abstractions.7.0.3.nupkg.sha512",
+    "C:\\Users\\aleja\\.nuget\\packages\\microsoft.identitymodel.logging\\7.0.3\\microsoft.identitymodel.logging.7.0.3.nupkg.sha512",
+    "C:\\Users\\aleja\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.0.3\\microsoft.identitymodel.tokens.7.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

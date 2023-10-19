@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AuthSystem.DataAccess\AuthSystem.DataAccess.csproj" />
     <ProjectReference Include="..\AuthSystem.Domain\AuthSystem.Domain.csproj" />
   </ItemGroup>
 

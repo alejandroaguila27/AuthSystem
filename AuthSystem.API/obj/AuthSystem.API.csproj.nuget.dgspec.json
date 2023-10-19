@@ -57,6 +57,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
               "version": "[7.0.12, )"
@@ -71,9 +75,17 @@
               "target": "Package",
               "version": "[7.0.12, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             }
           },
           "imports": [
@@ -126,7 +138,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\aleja\\Documents\\GitHub\\AuthSystem\\AuthSystem.Domain\\AuthSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\aleja\\Documents\\GitHub\\AuthSystem\\AuthSystem.Domain\\AuthSystem.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -138,6 +154,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.VisualStudio.Services.Client": {
+              "target": "Package",
+              "version": "[16.205.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -282,6 +320,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -330,6 +374,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\aleja\\Documents\\GitHub\\AuthSystem\\AuthSystem.DataAccess\\AuthSystem.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\aleja\\Documents\\GitHub\\AuthSystem\\AuthSystem.DataAccess\\AuthSystem.DataAccess.csproj"
+              },
               "C:\\Users\\aleja\\Documents\\GitHub\\AuthSystem\\AuthSystem.Domain\\AuthSystem.Domain.csproj": {
                 "projectPath": "C:\\Users\\aleja\\Documents\\GitHub\\AuthSystem\\AuthSystem.Domain\\AuthSystem.Domain.csproj"
               }

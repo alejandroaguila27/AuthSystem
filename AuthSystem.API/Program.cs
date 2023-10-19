@@ -1,32 +1,41 @@
+using AuthSystem.Application.Services;
+using AuthSystem.Domain.Interfaces;
 using AuthSystem.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configure your connection string by reading it from appsettings.json
+// Configurar la cadena de conexión leyéndola desde appsettings.json
 builder.Configuration.AddJsonFile("appsettings.json");
 var connectionString = builder.Configuration.GetConnectionString("AuthSystemDatabase");
 
-// Add services to the container.
+// Añadir servicios al contenedor de servicios.
 builder.Services.AddDbContext<AuthSystemDbContext>(options =>
 {
     options.UseSqlServer(connectionString, b => b.MigrationsAssembly("AuthSystem.Infrastructure"));
 });
 
-// Registrar tus servicios de aplicación y otros servicios necesarios.
-
-// Asegúrate de registrar otros servicios e interfaces que necesites.
-
+// Registrar tus servicios de aplicación y otras dependencias.
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IPasswordService, PasswordService>();
+builder.Services.AddScoped<IJwtService, JwtService>();
+builder.Services.AddScoped<UserService>();
 builder.Services.AddControllers();
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+// Obtener el ambiente de desarrollo (Development Environment)
+var environment = builder.Environment;
+
+// Agregar soporte para Swagger/OpenAPI solo en entorno de desarrollo
+if (environment.IsDevelopment())
+{
+    builder.Services.AddSwaggerGen();
+}
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+// Configurar la tubería de solicitud (request pipeline) HTTP.
+if (environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
